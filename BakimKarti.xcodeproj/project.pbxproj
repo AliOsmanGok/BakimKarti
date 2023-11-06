@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8CD24C72AF4306400BB85BF /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD24C62AF4306400BB85BF /* ShareView.swift */; };
+		F8CD30272AF41E0600FDF84A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD30262AF41E0600FDF84A /* CardView.swift */; };
+		F8EC32C52AF3E22700421041 /* BakimKartiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC32C42AF3E22700421041 /* BakimKartiApp.swift */; };
+		F8EC32C72AF3E22700421041 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC32C62AF3E22700421041 /* RenderView.swift */; };
+		F8EC32C92AF3E22900421041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EC32C82AF3E22900421041 /* Assets.xcassets */; };
+		F8EC32CD2AF3E22900421041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EC32CC2AF3E22900421041 /* Preview Assets.xcassets */; };
+		F8EC32D42AF3E27200421041 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC32D32AF3E27200421041 /* UserList.swift */; };
+		F8EC32D62AF3E27D00421041 /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC32D52AF3E27D00421041 /* CreateUser.swift */; };
+		F8EC32D82AF3E28C00421041 /* EditUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EC32D72AF3E28C00421041 /* EditUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8CD24C62AF4306400BB85BF /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		F8CD24C82AF4319D00BB85BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8CD30262AF41E0600FDF84A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F8EC32C12AF3E22700421041 /* BakimKarti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakimKarti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EC32C42AF3E22700421041 /* BakimKartiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakimKartiApp.swift; sourceTree = "<group>"; };
+		F8EC32C62AF3E22700421041 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
+		F8EC32C82AF3E22900421041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8EC32CA2AF3E22900421041 /* BakimKarti.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BakimKarti.entitlements; sourceTree = "<group>"; };
+		F8EC32CC2AF3E22900421041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8EC32D32AF3E27200421041 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		F8EC32D52AF3E27D00421041 /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
+		F8EC32D72AF3E28C00421041 /* EditUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8EC32BE2AF3E22700421041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8EC32B82AF3E22700421041 = {
+			isa = PBXGroup;
+			children = (
+				F8EC32C32AF3E22700421041 /* BakimKarti */,
+				F8EC32C22AF3E22700421041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EC32C22AF3E22700421041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC32C12AF3E22700421041 /* BakimKarti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8EC32C32AF3E22700421041 /* BakimKarti */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD24C82AF4319D00BB85BF /* Info.plist */,
+				F8EC32C42AF3E22700421041 /* BakimKartiApp.swift */,
+				F8EC32C62AF3E22700421041 /* RenderView.swift */,
+				F8EC32D32AF3E27200421041 /* UserList.swift */,
+				F8EC32D52AF3E27D00421041 /* CreateUser.swift */,
+				F8EC32D72AF3E28C00421041 /* EditUser.swift */,
+				F8CD30262AF41E0600FDF84A /* CardView.swift */,
+				F8CD24C62AF4306400BB85BF /* ShareView.swift */,
+				F8EC32C82AF3E22900421041 /* Assets.xcassets */,
+				F8EC32CA2AF3E22900421041 /* BakimKarti.entitlements */,
+				F8EC32CB2AF3E22900421041 /* Preview Content */,
+			);
+			path = BakimKarti;
+			sourceTree = "<group>";
+		};
+		F8EC32CB2AF3E22900421041 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8EC32CC2AF3E22900421041 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8EC32C02AF3E22700421041 /* BakimKarti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EC32D02AF3E22900421041 /* Build configuration list for PBXNativeTarget "BakimKarti" */;
+			buildPhases = (
+				F8EC32BD2AF3E22700421041 /* Sources */,
+				F8EC32BE2AF3E22700421041 /* Frameworks */,
+				F8EC32BF2AF3E22700421041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BakimKarti;
+			productName = BakimKarti;
+			productReference = F8EC32C12AF3E22700421041 /* BakimKarti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8EC32B92AF3E22700421041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F8EC32C02AF3E22700421041 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F8EC32BC2AF3E22700421041 /* Build configuration list for PBXProject "BakimKarti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+			);
+			mainGroup = F8EC32B82AF3E22700421041;
+			productRefGroup = F8EC32C22AF3E22700421041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8EC32C02AF3E22700421041 /* BakimKarti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8EC32BF2AF3E22700421041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EC32CD2AF3E22900421041 /* Preview Assets.xcassets in Resources */,
+				F8EC32C92AF3E22900421041 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8EC32BD2AF3E22700421041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EC32C72AF3E22700421041 /* RenderView.swift in Sources */,
+				F8EC32D42AF3E27200421041 /* UserList.swift in Sources */,
+				F8EC32D62AF3E27D00421041 /* CreateUser.swift in Sources */,
+				F8CD24C72AF4306400BB85BF /* ShareView.swift in Sources */,
+				F8EC32D82AF3E28C00421041 /* EditUser.swift in Sources */,
+				F8CD30272AF41E0600FDF84A /* CardView.swift in Sources */,
+				F8EC32C52AF3E22700421041 /* BakimKartiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8EC32CE2AF3E22900421041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_THREADSAFE_STATICS[arch=*]" = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8EC32CF2AF3E22900421041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F8EC32D12AF3E22900421041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BakimKarti/BakimKarti.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BakimKarti/Preview Content\"";
+				DEVELOPMENT_TEAM = 58KLLPMXX7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BakimKarti/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Bakım Kartı uygulamasına, oluşturduğunuz kartları fotoğraflara kaydedebilmeniz için Fotoğraflar'a erişim izini vermeniz gerekmektedir.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UIUserInterfaceStyle[sdk=*]" = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliosmangok.BakimKarti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8EC32D22AF3E22900421041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BakimKarti/BakimKarti.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BakimKarti/Preview Content\"";
+				DEVELOPMENT_TEAM = 58KLLPMXX7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BakimKarti/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Bakım Kartı uygulamasına, oluşturduğunuz kartları fotoğraflara kaydedebilmeniz için Fotoğraflar'a erişim izini vermeniz gerekmektedir.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliosmangok.BakimKarti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8EC32BC2AF3E22700421041 /* Build configuration list for PBXProject "BakimKarti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EC32CE2AF3E22900421041 /* Debug */,
+				F8EC32CF2AF3E22900421041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EC32D02AF3E22900421041 /* Build configuration list for PBXNativeTarget "BakimKarti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EC32D12AF3E22900421041 /* Debug */,
+				F8EC32D22AF3E22900421041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8EC32B92AF3E22700421041 /* Project object */;
+}
